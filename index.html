@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Marlon Murillo — IT Infrastructure & Cybersecurity Specialist | IT Project Manager | Canadian Permanent Resident | Sherbrooke, Québec">
+<meta property="og:title" content="Marlon A. Murillo Medina — Cybersecurity & IT Portfolio">
+<meta property="og:description" content="20+ years protecting critical infrastructure. Researcher. Project Manager. Permanent Resident Québec.">
+<title>Marlon A. Murillo Medina — Cybersecurity & IT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B2545;--blue:#1B4F8A;--blue2:#2D6FBF;--accent:#E8F2FD;
+  --gold:#C9952A;--green:#1A6B3A;--text:#111827;--muted:#5A6478;
+  --border:#DDE5F0;--bg:#F7F9FD;--white:#FFFFFF;--card:#FFFFFF;
+  --serif:'DM Serif Display',serif;--sans:'DM Sans',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.7;font-size:16px}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(11,37,69,.97);backdrop-filter:blur(8px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.nav-brand{font-family:var(--serif);font-size:18px;color:#fff;letter-spacing:.3px}
+.nav-links{display:flex;gap:6px;flex-wrap:wrap}
+.nav-link{color:#9DBDE8;font-size:13px;padding:5px 12px;border-radius:20px;border:none;background:transparent;cursor:pointer;transition:all .15s;font-family:var(--sans)}
+.nav-link:hover,.nav-link.active{background:rgba(255,255,255,.12);color:#fff}
+.lang-toggle{display:flex;gap:4px}
+.lt{padding:4px 10px;border-radius:20px;border:1px solid rgba(255,255,255,.25);background:transparent;color:rgba(255,255,255,.6);font-size:12px;cursor:pointer;font-family:var(--sans);transition:all .15s}
+.lt:hover,.lt.active{background:#2D6FBF;border-color:#2D6FBF;color:#fff}
+
+/* HERO */
+.hero{background:var(--navy);color:#fff;padding:100px 40px 80px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;right:0;width:600px;height:100%;background:radial-gradient(ellipse at 80% 50%,rgba(45,111,191,.18) 0%,transparent 70%);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:60px;background:var(--bg);clip-path:ellipse(55% 100% at 50% 100%)}
+.hero-inner{max-width:800px;margin:0 auto;position:relative}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(45,111,191,.3);border:1px solid rgba(45,111,191,.5);border-radius:20px;padding:6px 14px;font-size:12px;color:#9DBDE8;margin-bottom:24px;letter-spacing:.5px;text-transform:uppercase}
+.hero h1{font-family:var(--serif);font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;margin-bottom:16px;color:#fff}
+.hero h1 em{color:#7BB8EF;font-style:italic}
+.hero-tagline{font-size:16px;color:#9DBDE8;margin-bottom:32px;line-height:1.6;max-width:600px}
+.hero-stats{display:flex;gap:32px;flex-wrap:wrap;margin-bottom:40px;padding:24px 0;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)}
+.stat{text-align:center}
+.stat-n{font-family:var(--serif);font-size:2rem;color:#fff;line-height:1;margin-bottom:4px}
+.stat-l{font-size:12px;color:#7B92B0;letter-spacing:.5px;text-transform:uppercase}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{padding:12px 28px;background:var(--blue2);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--sans);transition:all .2s;text-decoration:none;display:inline-block}
+.btn-primary:hover{background:#1B4F8A;transform:translateY(-1px)}
+.btn-outline{padding:12px 28px;background:transparent;color:#9DBDE8;border:1.5px solid rgba(45,111,191,.6);border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--sans);transition:all .2s;text-decoration:none;display:inline-block}
+.btn-outline:hover{border-color:#2D6FBF;color:#fff;background:rgba(45,111,191,.15)}
+
+/* SECTIONS */
+.section{padding:80px 40px;max-width:960px;margin:0 auto}
+.section-tag{font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--blue2);margin-bottom:8px}
+.section-title{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.2rem);color:var(--navy);margin-bottom:8px;line-height:1.2}
+.section-sub{font-size:15px;color:var(--muted);margin-bottom:48px;max-width:560px}
+.divider{width:48px;height:3px;background:var(--blue2);border-radius:2px;margin:16px 0 40px}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+@media(max-width:640px){.about-grid{grid-template-columns:1fr}}
+.about-text{font-size:15px;color:var(--muted);line-height:1.8}
+.about-text p{margin-bottom:16px}
+.about-text strong{color:var(--text)}
+.skills-list{display:flex;flex-wrap:wrap;gap:8px}
+.skill-tag{padding:5px 12px;border-radius:20px;font-size:12px;font-weight:500;background:var(--accent);color:var(--blue);border:1px solid #C5D8F5}
+.skill-tag.gold{background:#FDF3E0;color:#C9952A;border-color:#F0D8A0}
+.skill-tag.green{background:#E8F5EE;color:#1A6B3A;border-color:#B8DFC9}
+
+/* RESEARCH */
+.research-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.research-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;transition:all .2s;cursor:pointer;text-decoration:none;display:block;position:relative;overflow:hidden}
+.research-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--blue2)}
+.research-card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(11,37,69,.1);border-color:var(--blue2)}
+.rc-tag{font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--blue2);margin-bottom:10px}
+.rc-title{font-family:var(--serif);font-size:17px;color:var(--navy);margin-bottom:10px;line-height:1.3}
+.rc-desc{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:16px}
+.rc-langs{display:flex;gap:6px}
+.rc-lang{font-size:11px;padding:3px 8px;border-radius:20px;font-weight:500}
+.rc-l-fr{background:#E8F0FC;color:#185FA5}
+.rc-l-en{background:#E8F5EE;color:#1A7A4A}
+.rc-l-es{background:#FDF3E0;color:#C9952A}
+.rc-arrow{position:absolute;bottom:20px;right:20px;color:var(--blue2);font-size:18px;opacity:0;transition:all .2s}
+.research-card:hover .rc-arrow{opacity:1;transform:translateX(3px)}
+
+/* PROJECTS */
+.project-list{display:flex;flex-direction:column;gap:16px}
+.project-item{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;gap:20px;align-items:flex-start;transition:all .2s}
+.project-item:hover{border-color:var(--blue2);box-shadow:0 6px 24px rgba(11,37,69,.08)}
+.pi-icon{width:48px;height:48px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.pi-body h3{font-size:16px;font-weight:500;color:var(--navy);margin-bottom:4px}
+.pi-body p{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:10px}
+.pi-tags{display:flex;gap:6px;flex-wrap:wrap}
+.pi-tag{font-size:11px;padding:3px 9px;border-radius:20px;background:var(--bg);border:1px solid var(--border);color:var(--muted)}
+.pi-result{font-size:12px;font-weight:500;color:var(--green);display:flex;align-items:center;gap:4px;margin-top:8px}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media(max-width:640px){.contact-grid{grid-template-columns:1fr}}
+.contact-card{background:var(--navy);border-radius:16px;padding:36px;color:#fff}
+.contact-card h3{font-family:var(--serif);font-size:22px;margin-bottom:12px;color:#fff}
+.contact-card p{font-size:14px;color:#9DBDE8;line-height:1.7;margin-bottom:24px}
+.contact-info{display:flex;flex-direction:column;gap:12px}
+.ci{display:flex;align-items:center;gap:10px;font-size:14px;color:#9DBDE8}
+.ci strong{color:#fff}
+.contact-form-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:36px}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:13px;font-weight:500;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:8px;font-family:var(--sans);font-size:14px;color:var(--text);background:#fff;outline:none;transition:border .15s}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{border-color:var(--blue2)}
+.form-group textarea{min-height:100px;resize:vertical}
+.submit-btn{width:100%;padding:12px;background:var(--blue2);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--sans);transition:all .2s}
+.submit-btn:hover{background:var(--navy)}
+
+/* FOOTER */
+footer{background:var(--navy);color:#9DBDE8;padding:40px;text-align:center;font-size:13px}
+footer a{color:#7BB8EF;text-decoration:none}
+footer a:hover{color:#fff}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px;flex-wrap:wrap}
+
+/* LANG */
+[data-lang]{display:none}[data-lang].active{display:block}
+[data-lang-inline]{display:none}[data-lang-inline].active{display:inline}
+
+/* ANIMATIONS */
+.fade-in{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+@media(max-width:600px){
+  nav{padding:12px 16px}.hero{padding:70px 20px 60px}.section{padding:60px 20px}
+  .hero-stats{gap:20px}.contact-form-card{padding:24px}.contact-card{padding:24px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-brand">M. Murillo</span>
+  <div class="nav-links">
+    <button class="nav-link" onclick="scrollTo('about')">
+      <span data-lang="en" class="active">About</span>
+      <span data-lang="fr">À propos</span>
+      <span data-lang="es">Sobre mí</span>
+    </button>
+    <button class="nav-link" onclick="scrollTo('research')">
+      <span data-lang="en" class="active">Research</span>
+      <span data-lang="fr">Recherches</span>
+      <span data-lang="es">Investigación</span>
+    </button>
+    <button class="nav-link" onclick="scrollTo('projects')">
+      <span data-lang="en" class="active">Projects</span>
+      <span data-lang="fr">Projets</span>
+      <span data-lang="es">Proyectos</span>
+    </button>
+    <button class="nav-link" onclick="scrollTo('contact')">
+      <span data-lang="en" class="active">Contact</span>
+      <span data-lang="fr">Contact</span>
+      <span data-lang="es">Contacto</span>
+    </button>
+  </div>
+  <div class="lang-toggle">
+    <button class="lt active" onclick="setLang('en')">EN</button>
+    <button class="lt" onclick="setLang('fr')">FR</button>
+    <button class="lt" onclick="setLang('es')">ES</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span>🍁</span>
+      <span data-lang="en" class="active">Permanent Resident · Québec, Canada</span>
+      <span data-lang="fr">Résident permanent · Québec, Canada</span>
+      <span data-lang="es">Residente Permanente · Québec, Canadá</span>
+    </div>
+
+    <h1 data-lang="en" class="active">
+      Marlon Alexander<br><em>Murillo Medina</em>
+    </h1>
+    <h1 data-lang="fr">
+      Marlon Alexander<br><em>Murillo Medina</em>
+    </h1>
+    <h1 data-lang="es">
+      Marlon Alexander<br><em>Murillo Medina</em>
+    </h1>
+
+    <p class="hero-tagline" data-lang="en" style="display:block">
+      IT Infrastructure & Cybersecurity Specialist · IT Project Manager<br>
+      20+ years protecting critical systems. Researcher. Trilingual.
+    </p>
+    <p class="hero-tagline" data-lang="fr" style="display:none">
+      Spécialiste infrastructure TI & cybersécurité · Chef de projets<br>
+      20+ ans à protéger des systèmes critiques. Chercheur. Trilingue.
+    </p>
+    <p class="hero-tagline" data-lang="es" style="display:none">
+      Especialista en Infraestructura TI & Ciberseguridad · Director de Proyectos<br>
+      20+ años protegiendo sistemas críticos. Investigador. Trilingüe.
+    </p>
+
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-n">20+</div><div class="stat-l">Years IT</div></div>
+      <div class="stat"><div class="stat-n">70%</div><div class="stat-l">Incident reduction</div></div>
+      <div class="stat"><div class="stat-n">8M+</div><div class="stat-l">Citizens protected</div></div>
+      <div class="stat"><div class="stat-n">0</div><div class="stat-l">Data breaches</div></div>
+      <div class="stat"><div class="stat-n">$1.5M</div><div class="stat-l">Projects led</div></div>
+    </div>
+
+    <div class="hero-btns">
+      <a href="mailto:am.projects.can@gmail.com" class="btn-primary">
+        <span data-lang="en" class="active">Get in touch</span>
+        <span data-lang="fr">Me contacter</span>
+        <span data-lang="es">Contactarme</span>
+      </a>
+      <a href="https://linkedin.com/in/marlon-alexander-murillo-medina-237a9131a" target="_blank" class="btn-outline">LinkedIn ↗</a>
+      <a href="https://github.com/marlon-murillo" target="_blank" class="btn-outline">GitHub ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section fade-in" id="about">
+  <div>
+    <p class="section-tag" data-lang="en" style="display:block">About</p>
+    <p class="section-tag" data-lang="fr" style="display:none">À propos</p>
+    <p class="section-tag" data-lang="es" style="display:none">Sobre mí</p>
+
+    <h2 class="section-title" data-lang="en" style="display:block">Engineer. Manager. Researcher.</h2>
+    <h2 class="section-title" data-lang="fr" style="display:none">Ingénieur. Gestionnaire. Chercheur.</h2>
+    <h2 class="section-title" data-lang="es" style="display:none">Ingeniero. Gestor. Investigador.</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="about-grid">
+    <div>
+      <div class="about-text" data-lang="en" style="display:block">
+        <p>I manage systems, coordinate teams, and keep infrastructure running. <strong>I'm not a distant manager — I'm part of the engine.</strong></p>
+        <p>With 20+ years in IT infrastructure and 15+ years dedicated to cybersecurity, I have protected critical systems for national governments, energy companies, and financial institutions across Central America and Canada.</p>
+        <p>Today I lead a cross-functional product team delivering digital solutions for the financial sector, while pursuing an <strong>MSc in Cybersecurity at the Université de Sherbrooke</strong> — where my research focuses on the digital vulnerability of elderly populations in Québec.</p>
+        <p>📍 <strong>Sherbrooke, Québec</strong> · Permanent Resident · Available immediately<br>
+        🌐 Open to: Québec · Canada · USA · Europe</p>
+      </div>
+      <div class="about-text" data-lang="fr" style="display:none">
+        <p>J'administre les systèmes, je coordonne les équipes, je maintiens l'infrastructure en mouvement. <strong>Je ne suis pas un gestionnaire distant — je suis au cœur du moteur.</strong></p>
+        <p>Avec 20+ ans en infrastructure TI dont 15+ dédiés à la cybersécurité, j'ai protégé des systèmes critiques pour des gouvernements nationaux, des entreprises énergétiques et des institutions financières en Amérique centrale et au Canada.</p>
+        <p>Aujourd'hui, je dirige une équipe pluridisciplinaire livrant des solutions numériques pour le secteur financier, tout en poursuivant une <strong>maîtrise en cybersécurité à l'Université de Sherbrooke</strong> — où mes recherches portent sur la vulnérabilité numérique des aînés au Québec.</p>
+        <p>📍 <strong>Sherbrooke, Québec</strong> · Résident permanent · Disponible immédiatement<br>
+        🌐 Ouvert à : Québec · Canada · USA · Europe</p>
+      </div>
+      <div class="about-text" data-lang="es" style="display:none">
+        <p>Administro sistemas, coordino equipos y mantengo la infraestructura funcionando. <strong>No soy un jefe lejano — soy parte del motor.</strong></p>
+        <p>Con más de 20 años en infraestructura TI y 15+ dedicados a la ciberseguridad, he protegido sistemas críticos para gobiernos nacionales, empresas energéticas e instituciones financieras en Centroamérica y Canadá.</p>
+        <p>Hoy lidero un equipo multidisciplinario que entrega soluciones digitales para el sector financiero, mientras curso una <strong>MSc en Ciberseguridad en la Université de Sherbrooke</strong> — donde mi investigación se centra en la vulnerabilidad digital de las personas mayores en Québec.</p>
+        <p>📍 <strong>Sherbrooke, Québec</strong> · Residente Permanente · Disponible inmediatamente<br>
+        🌐 Abierto a: Québec · Canadá · USA · Europa</p>
+      </div>
+    </div>
+    <div>
+      <p style="font-size:13px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:14px">Core Skills</p>
+      <div class="skills-list">
+        <span class="skill-tag">Cybersecurity</span>
+        <span class="skill-tag">Cisco ASA</span>
+        <span class="skill-tag">Fortinet FortiGate</span>
+        <span class="skill-tag">VMware vSphere</span>
+        <span class="skill-tag">PfSense</span>
+        <span class="skill-tag">IDS/IPS</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">ISO 27001</span>
+        <span class="skill-tag gold">IT Project Management</span>
+        <span class="skill-tag gold">Agile / Scrum</span>
+        <span class="skill-tag gold">Cross-functional Teams</span>
+        <span class="skill-tag green">Moodle LMS</span>
+        <span class="skill-tag green">VoIP / SIP</span>
+        <span class="skill-tag green">Fibre Optic Networks</span>
+        <span class="skill-tag green">Python · PowerShell</span>
+      </div>
+      <div style="margin-top:24px;padding:16px;background:var(--accent);border-radius:10px;border-left:3px solid var(--blue2)">
+        <p style="font-size:12px;font-weight:500;color:var(--blue);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Certifications</p>
+        <p style="font-size:13px;color:var(--muted);line-height:1.8">CCNA (Instructor) · VMware VCP · MikroTik MTCNA/MTCRE · Ubiquiti UEWA · ISO 9001:2015 · Lean Six Sigma YB</p>
+        <p style="font-size:12px;color:var(--gold);margin-top:8px;font-weight:500">⏳ Google Cybersecurity Certificate (in progress)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="section fade-in" id="research" style="background:var(--white);border-radius:24px;margin:0 40px 40px;padding:60px 60px">
+  <p class="section-tag" data-lang="en" style="display:block">Research & Publications</p>
+  <p class="section-tag" data-lang="fr" style="display:none">Recherches & Publications</p>
+  <p class="section-tag" data-lang="es" style="display:none">Investigación & Publicaciones</p>
+
+  <h2 class="section-title" data-lang="en" style="display:block">Academic Research</h2>
+  <h2 class="section-title" data-lang="fr" style="display:none">Recherches académiques</h2>
+  <h2 class="section-title" data-lang="es" style="display:none">Investigación académica</h2>
+  <div class="divider"></div>
+
+  <div class="research-grid">
+    <a class="research-card" href="research/cybersecurity-elderly-quebec-en.html">
+      <div class="rc-tag">Cybersecurity · Social Policy · Québec</div>
+      <div class="rc-title" data-lang="en" style="display:block">Cybersecurity of Québec's Elderly: Toward a Comprehensive Strategy</div>
+      <div class="rc-title" data-lang="fr" style="display:none">Cybersécurité des aînés québécois : Pour une stratégie intégrale</div>
+      <div class="rc-title" data-lang="es" style="display:none">Ciberseguridad de los adultos mayores en Québec: Hacia una estrategia integral</div>
+      <div class="rc-desc" data-lang="en" style="display:block">Based on CAFC 2024 data: seniors 60+ represent 40.3% of national fraud losses. Average loss per victim: $21,604. This report analyses structural vulnerabilities and proposes 3 concrete policy recommendations including amendment to Loi 25.</div>
+      <div class="rc-desc" data-lang="fr" style="display:none">Selon les données du CAFC 2024 : les 60 ans et plus représentent 40,3 % des pertes nationales liées à la fraude. Perte moyenne par victime : 21 604 $. Ce rapport analyse les vulnérabilités structurelles et propose 3 recommandations concrètes dont un amendement à la Loi 25.</div>
+      <div class="rc-desc" data-lang="es" style="display:none">Según datos del CAFC 2024: los mayores de 60 años representan el 40.3% de las pérdidas nacionales por fraude. Pérdida promedio por víctima: $21,604. Este informe analiza vulnerabilidades estructurales y propone 3 recomendaciones concretas de política pública.</div>
+      <div class="rc-langs">
+        <span class="rc-lang rc-l-fr">FR</span>
+        <span class="rc-lang rc-l-en">EN</span>
+        <span class="rc-lang rc-l-es">ES</span>
+      </div>
+      <span class="rc-arrow">→</span>
+    </a>
+
+    <div class="research-card" style="opacity:.6;cursor:default">
+      <div class="rc-tag">Coming Soon</div>
+      <div class="rc-title" data-lang="en" style="display:block">Data Center Construction: From Design to Production</div>
+      <div class="rc-title" data-lang="fr" style="display:none">Construction d'un centre de données : De la conception à la production</div>
+      <div class="rc-title" data-lang="es" style="display:none">Construcción de un centro de datos: Del diseño a la producción</div>
+      <div class="rc-desc">A technical case study documenting the full lifecycle of data center construction — site selection, power, cooling, structured cabling, physical and logical security, high availability.</div>
+      <div class="rc-langs">
+        <span class="rc-lang rc-l-fr">FR</span>
+        <span class="rc-lang rc-l-en">EN</span>
+        <span class="rc-lang rc-l-es">ES</span>
+      </div>
+    </div>
+
+    <div class="research-card" style="opacity:.6;cursor:default">
+      <div class="rc-tag">Coming Soon</div>
+      <div class="rc-title" data-lang="en" style="display:block">Fibre Optic Ring for Data & CCTV Network Segmentation</div>
+      <div class="rc-title" data-lang="fr" style="display:none">Anneau de fibre optique pour la segmentation données & vidéosurveillance</div>
+      <div class="rc-title" data-lang="es" style="display:none">Anillo de fibra óptica para segmentación de datos y videovigilancia</div>
+      <div class="rc-desc">Physical and logical network separation using a fibre optic ring topology — protecting critical data networks from surveillance traffic with zero-trust segmentation principles.</div>
+      <div class="rc-langs">
+        <span class="rc-lang rc-l-fr">FR</span>
+        <span class="rc-lang rc-l-en">EN</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section fade-in" id="projects">
+  <p class="section-tag" data-lang="en" style="display:block">Case Studies</p>
+  <p class="section-tag" data-lang="fr" style="display:none">Études de cas</p>
+  <p class="section-tag" data-lang="es" style="display:none">Casos de estudio</p>
+
+  <h2 class="section-title" data-lang="en" style="display:block">Selected Projects</h2>
+  <h2 class="section-title" data-lang="fr" style="display:none">Projets sélectionnés</h2>
+  <h2 class="section-title" data-lang="es" style="display:none">Proyectos seleccionados</h2>
+  <div class="divider"></div>
+
+  <div class="project-list">
+    <div class="project-item">
+      <div class="pi-icon">🏛️</div>
+      <div class="pi-body">
+        <h3 data-lang="en" style="display:block">National Perimeter Protection — Government of Honduras</h3>
+        <h3 data-lang="fr" style="display:none">Protection périmétrale nationale — Gouvernement du Honduras</h3>
+        <h3 data-lang="es" style="display:none">Protección Perimetral Nacional — Gobierno de Honduras</h3>
+        <p data-lang="en" style="display:block">$1.5M USD strategic project securing the national tax data center and 25 regional offices. Cisco ASA 5585-X in HA, IDS/IPS with 300+ custom rules, multi-level DMZ, 50+ VLANs, IPSec VPN across 25 sites.</p>
+        <p data-lang="fr" style="display:none">Projet stratégique de 1,5 M$ USD sécurisant le centre de données fiscal national et 25 bureaux régionaux. Cisco ASA 5585-X en HA, IDS/IPS avec 300+ règles, DMZ multi-niveaux, 50+ VLANs, VPN IPSec sur 25 sites.</p>
+        <p data-lang="es" style="display:none">Proyecto estratégico de $1.5M USD asegurando el centro de datos fiscal nacional y 25 oficinas regionales. Cisco ASA 5585-X en HA, IDS/IPS con 300+ reglas, DMZ multinivel, 50+ VLANs, VPN IPSec en 25 sitios.</p>
+        <div class="pi-tags">
+          <span class="pi-tag">Cisco ASA 5585-X</span><span class="pi-tag">IDS/IPS</span><span class="pi-tag">IPSec VPN</span><span class="pi-tag">DMZ</span><span class="pi-tag">VLAN</span>
+        </div>
+        <div class="pi-result">► 70% security incident reduction · 8M+ taxpayers protected · 99.95% uptime</div>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="pi-icon">⚡</div>
+      <div class="pi-body">
+        <h3 data-lang="en" style="display:block">Secure Data Center Migration — National Energy Company</h3>
+        <h3 data-lang="fr" style="display:none">Migration sécurisée — Entreprise nationale d'énergie</h3>
+        <h3 data-lang="es" style="display:none">Migración Segura de Centro de Datos — Empresa Nacional de Energía</h3>
+        <p data-lang="en" style="display:block">Migration of 100+ physical and virtual servers and 50+ TB of critical data to a new facility. Zero downtime. AES-256 encryption in transit and at rest. Fortinet NGFW deployment. Full pre/post-migration security testing.</p>
+        <p data-lang="fr" style="display:none">Migration de 100+ serveurs physiques/virtuels et 50+ To de données critiques vers une nouvelle installation. Zéro interruption. Chiffrement AES-256 en transit et au repos. Déploiement Fortinet NGFW.</p>
+        <p data-lang="es" style="display:none">Migración de 100+ servidores físicos/virtuales y 50+ TB de datos críticos a una nueva instalación. Sin interrupciones. Cifrado AES-256 en tránsito y en reposo. Despliegue de Fortinet NGFW.</p>
+        <div class="pi-tags">
+          <span class="pi-tag">Fortinet FortiGate</span><span class="pi-tag">VMware vSphere</span><span class="pi-tag">AES-256</span><span class="pi-tag">Zero Downtime</span>
+        </div>
+        <div class="pi-result">► Vulnerabilities: 47 → 3 (−94%) · Audit score: 52% → 94%</div>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="pi-icon">📡</div>
+      <div class="pi-body">
+        <h3 data-lang="en" style="display:block">Wi-Fi Campus Network with PfSense Content Filtering — Educational Institution</h3>
+        <h3 data-lang="fr" style="display:none">Réseau Wi-Fi campus avec filtrage PfSense — Institution éducative</h3>
+        <h3 data-lang="es" style="display:none">Red Wi-Fi Campus con Filtrado PfSense — Institución Educativa</h3>
+        <p data-lang="en" style="display:block">Full wireless infrastructure design for an educational campus: VLAN segmentation (students / admin / guests), virtualized PfSense content filtering, captive portal authentication, Ubiquiti UniFi access points.</p>
+        <p data-lang="fr" style="display:none">Conception complète d'une infrastructure sans fil pour un campus éducatif : segmentation VLAN (étudiants/admin/invités), filtrage de contenu PfSense virtualisé, portail captif, points d'accès Ubiquiti UniFi.</p>
+        <p data-lang="es" style="display:none">Diseño completo de infraestructura inalámbrica para campus educativo: segmentación VLAN (estudiantes/admin/invitados), filtrado de contenido PfSense virtualizado, portal cautivo, APs Ubiquiti UniFi.</p>
+        <div class="pi-tags">
+          <span class="pi-tag">PfSense</span><span class="pi-tag">Ubiquiti UniFi</span><span class="pi-tag">VLAN</span><span class="pi-tag">Captive Portal</span><span class="pi-tag">VMware</span>
+        </div>
+        <div class="pi-result">► Secure multi-tenant Wi-Fi · Content filtering for 5,000+ users</div>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="pi-icon">🔌</div>
+      <div class="pi-body">
+        <h3 data-lang="en" style="display:block">IP Telephony System with Voice VLANs</h3>
+        <h3 data-lang="fr" style="display:none">Système de téléphonie IP avec Voice VLANs</h3>
+        <h3 data-lang="es" style="display:none">Sistema de Telefonía IP con Voice VLANs</h3>
+        <p data-lang="en" style="display:block">Full corporate IP telephony deployment: IPBX configuration, Voice VLAN design and implementation, QoS prioritization for voice vs data traffic, SIP trunk integration, security hardening of the voice plane.</p>
+        <p data-lang="fr" style="display:none">Déploiement complet de téléphonie IP d'entreprise : configuration IPBX, conception et implantation des Voice VLANs, priorisation QoS voix vs données, intégration SIP, durcissement du plan voix.</p>
+        <p data-lang="es" style="display:none">Despliegue completo de telefonía IP corporativa: configuración IPBX, diseño e implementación de Voice VLANs, priorización QoS voz vs datos, integración SIP, hardening del plano de voz.</p>
+        <div class="pi-tags">
+          <span class="pi-tag">VoIP / SIP</span><span class="pi-tag">Voice VLAN</span><span class="pi-tag">QoS</span><span class="pi-tag">IPBX</span>
+        </div>
+        <div class="pi-result">► Zero voice degradation · Telecom savings $115K/yr</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section fade-in" id="contact" style="background:var(--white);border-radius:24px;margin:0 40px 80px;padding:60px 60px">
+  <p class="section-tag" data-lang="en" style="display:block">Contact</p>
+  <p class="section-tag" data-lang="fr" style="display:none">Contact</p>
+  <p class="section-tag" data-lang="es" style="display:none">Contacto</p>
+
+  <h2 class="section-title" data-lang="en" style="display:block">Let's Talk</h2>
+  <h2 class="section-title" data-lang="fr" style="display:none">Parlons-en</h2>
+  <h2 class="section-title" data-lang="es" style="display:none">Hablemos</h2>
+  <div class="divider"></div>
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3 data-lang="en" style="display:block">Available for opportunities</h3>
+      <h3 data-lang="fr" style="display:none">Disponible pour des opportunités</h3>
+      <h3 data-lang="es" style="display:none">Disponible para oportunidades</h3>
+      <p data-lang="en" style="display:block">Open to roles in cybersecurity, IT infrastructure, and project management across Québec, Canada, USA, and Europe. On-site, hybrid, or remote.</p>
+      <p data-lang="fr" style="display:none">Ouvert aux postes en cybersécurité, infrastructure TI et gestion de projets au Québec, au Canada, aux États-Unis et en Europe. Présentiel, hybride ou télétravail.</p>
+      <p data-lang="es" style="display:none">Abierto a roles en ciberseguridad, infraestructura TI y gestión de proyectos en Québec, Canadá, USA y Europa. Presencial, híbrido o remoto.</p>
+      <div class="contact-info">
+        <div class="ci">📧 <span><strong>am.projects.can@gmail.com</strong></span></div>
+        <div class="ci">📱 <span><strong>+1 514 213-1600</strong></span></div>
+        <div class="ci">📍 <span><strong>Sherbrooke, QC, Canada</strong></span></div>
+        <div class="ci">🔗 <span><a href="https://linkedin.com/in/marlon-alexander-murillo-medina-237a9131a" style="color:#7BB8EF" target="_blank">LinkedIn Profile ↗</a></span></div>
+        <div class="ci">💻 <span><a href="https://github.com/marlon-murillo" style="color:#7BB8EF" target="_blank">GitHub ↗</a></span></div>
+      </div>
+    </div>
+    <div class="contact-form-card">
+      <div class="form-group">
+        <label data-lang="en" style="display:block">Your Name</label>
+        <label data-lang="fr" style="display:none">Votre nom</label>
+        <label data-lang="es" style="display:none">Tu nombre</label>
+        <input type="text" placeholder="John Smith">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="john@company.com">
+      </div>
+      <div class="form-group">
+        <label data-lang="en" style="display:block">Subject</label>
+        <label data-lang="fr" style="display:none">Objet</label>
+        <label data-lang="es" style="display:none">Asunto</label>
+        <select>
+          <option data-lang="en">Job opportunity</option>
+          <option data-lang="en">Research collaboration</option>
+          <option data-lang="en">IT consulting</option>
+          <option data-lang="en">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label data-lang="en" style="display:block">Message</label>
+        <label data-lang="fr" style="display:none">Message</label>
+        <label data-lang="es" style="display:none">Mensaje</label>
+        <textarea placeholder="Tell me about the opportunity..."></textarea>
+      </div>
+      <button class="submit-btn" onclick="handleSubmit()">
+        <span data-lang="en" style="display:inline">Send message</span>
+        <span data-lang="fr" style="display:none">Envoyer</span>
+        <span data-lang="es" style="display:none">Enviar mensaje</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/marlon-alexander-murillo-medina-237a9131a" target="_blank">LinkedIn</a>
+    <a href="https://github.com/marlon-murillo" target="_blank">GitHub</a>
+    <a href="mailto:am.projects.can@gmail.com">Email</a>
+  </div>
+  <p>© 2026 Marlon Alexander Murillo Medina · Sherbrooke, Québec, Canada · Permanent Resident</p>
+</footer>
+
+<script>
+let currentLang = 'en';
+
+function setLang(l) {
+  currentLang = l;
+  document.querySelectorAll('.lt').forEach(b => b.classList.toggle('active', b.textContent.toLowerCase() === l));
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    const show = el.dataset.lang === l;
+    el.style.display = show ? (el.tagName === 'SPAN' ? 'inline' : 'block') : 'none';
+  });
+  document.documentElement.lang = l;
+}
+
+function scrollTo(id) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function handleSubmit() {
+  const msgs = { en: 'Thank you! Redirecting to email...', fr: 'Merci ! Redirection vers l\'email...', es: '¡Gracias! Redirigiendo al correo...' };
+  alert(msgs[currentLang]);
+  window.location.href = 'mailto:am.projects.can@gmail.com';
+}
+
+// Fade in on scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// Init lang
+setLang('en');
+</script>
+</body>
+</html>
