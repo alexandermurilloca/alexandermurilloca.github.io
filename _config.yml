@@ -1,0 +1,34 @@
+# Jekyll Configuration — alexandermurilloca.github.io
+title: "Marlon A. Murillo Medina"
+description: "IT Infrastructure & Cybersecurity Specialist | IT Project Manager | Researcher | Permanent Resident Québec"
+url: "https://alexandermurilloca.github.io"
+author:
+  name: "Marlon Alexander Murillo Medina"
+  email: "am.projects.can@gmail.com"
+
+# Theme
+theme: minima
+
+# Language
+lang: en
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Navigation
+header_pages:
+  - research/README.md
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
