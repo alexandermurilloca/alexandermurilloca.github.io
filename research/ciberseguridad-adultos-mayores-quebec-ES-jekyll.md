@@ -13,7 +13,7 @@ keywords: "ciberseguridad, adultos mayores, Québec, fraude en línea, phishing,
 **Por Marlon Alexander Murillo Medina**  
 *Maestría en Ciberseguridad — Université de Sherbrooke · Sherbrooke, Québec, Canadá · 2026*
 
-> 📄 También disponible en: [🇫🇷 Français](cybersecurite-aines-quebec-fr) · [🇬🇧 English](cybersecurity-elderly-quebec-en)
+> 📄 También disponible en: [🇫🇷 Français](/research/cybersecurite-aines-quebec-FR-jekyll/) · [🇬🇧 English](/research/cybersecurity-elderly-quebec-EN-jekyll/)
 
 ---
 

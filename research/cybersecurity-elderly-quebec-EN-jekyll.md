@@ -13,7 +13,7 @@ keywords: "cybersecurity, elderly, Quebec, online fraud, phishing, Loi 25, CLSC"
 **By Marlon Alexander Murillo Medina**  
 *MSc Cybersecurity — Université de Sherbrooke · Sherbrooke, Québec, Canada · 2026*
 
-> 📄 Also available in: [🇫🇷 Français](cybersecurite-aines-quebec-fr) · [🇪🇸 Español](ciberseguridad-adultos-mayores-quebec-es)
+> 📄 Also available in: [🇫🇷 Français](/research/cybersecurite-aines-quebec-FR-jekyll/) · [🇪🇸 Español](/research/ciberseguridad-adultos-mayores-quebec-ES-jekyll/)
 
 ---
 

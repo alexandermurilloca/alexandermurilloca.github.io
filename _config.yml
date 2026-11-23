@@ -1,6 +1,6 @@
 # Jekyll Configuration — alexandermurilloca.github.io
 title: "Marlon A. Murillo Medina"
-description: "IT Infrastructure & Cybersecurity Specialist | IT Project Manager | Researcher | Permanent Resident Québec"
+description: "Gestionnaire de projets TI et d'infrastructure | Cybersécurité | Administrateur réseaux et serveurs | Instructeur Cisco — Sherbrooke, Québec"
 url: "https://alexandermurilloca.github.io"
 author:
   name: "Marlon Alexander Murillo Medina"
@@ -10,7 +10,7 @@ author:
 theme: minima
 
 # Language
-lang: en
+lang: fr
 
 # Build settings
 markdown: kramdown

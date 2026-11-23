@@ -2,123 +2,96 @@
 
 # Marlon Alexander Murillo Medina
 
-### IT Infrastructure & Cybersecurity Specialist · IT Project Manager · Researcher
+### Gestionnaire de projets TI et d'infrastructure · Cybersécurité · Administrateur réseaux et serveurs · Instructeur Cisco
 
-**Sherbrooke, Québec, Canada 🍁 · Permanent Resident · Available immediately**
+**Sherbrooke, Québec, Canada 🍁**
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-0B2545?style=for-the-badge&logo=github&logoColor=white)](https://alexandermurilloca.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marlon-alexander-murillo-medina-237a9131a)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0B2545?style=for-the-badge&logo=github&logoColor=white)](https://marlon-murillo.github.io)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:am.projects.can@gmail.com)
+
+[Français](#-français) · [English](#-english) · [Español](#-español)
 
 </div>
 
 ---
 
-## 🛡️ About Me
+## 🇫🇷 Français
 
-> *I manage systems, coordinate teams, and keep infrastructure running. I'm not a distant manager — I'm part of the engine.*
+En 20 ans, je suis passé du soutien technique à la direction de l'infrastructure, des télécommunications et des projets TI d'une administration fiscale et douanière nationale (35+ bureaux, 250+ serveurs). Je complète une maîtrise en cybersécurité à l'Université de Sherbrooke.
 
-20+ years in IT infrastructure · 15+ years in cybersecurity · Protecting critical systems for national governments, energy companies, and financial institutions across Central America and Canada.
+**Progression de carrière :** Technicien TI (2007) → Analyste-programmeur (2008) → Chef du soutien technique (2009) → Chef de projets TI (2010) → Chef de l'infrastructure, des télécommunications et des projets TI (2017) → Responsable de l'infrastructure et du centre de données (2017-2019) → Gestionnaire de projets TI et consultant (2020-2026)
 
-Currently:
-- 📐 Leading a product team (UX + Full-Stack Dev) delivering digital solutions for a financial organization
-- 🎓 MSc in Cybersecurity — **Université de Sherbrooke** *(in progress)*
-- 🔬 Research focus: digital vulnerability of elderly populations in Québec
+| Réalisation | Résultat |
+|---|---|
+| Trois centres de données (2014, 2016, 2019) | 1,5 M$, 20 M$ et 1,5 M$ · disponibilité de 99,999 % |
+| Soutien technique national, 1 500 billets/mois | ENS (SLA) de 75 % à 95 % |
+| Migration de 35 sites E1 vers la fibre optique | Disponibilité de 92 % à 97-99 % |
+| Active Directory pour 2 500+ employés | Déployé en 3 mois |
+| 4 incidents de rançongiciel | Réglés en < 48 h, sans rançon payée |
+| PCA/PRA et ISO 9001 | RTO < 4 h · certification sans non-conformité |
+| Instructeur Cisco Networking Academy depuis 2008 | 225+ étudiants, réussite de 100 % |
 
----
+## 🇬🇧 English
 
-## 📊 Key Achievements
+Over 20 years, I moved from technical support to leading infrastructure, telecommunications and IT projects for a national tax and customs administration (35+ offices, 250+ servers). I am completing a Master's in Cybersecurity at Université de Sherbrooke.
 
-| Metric | Result |
-|--------|--------|
-| Security incidents reduced | **−70%** (Government of Honduras, 2008–2017) |
-| Data breaches across all managed environments | **0** — 5-year track record |
-| Annual operational savings delivered | **$265K+** |
-| Citizens' data protected | **8 million taxpayers** |
-| Servers migrated with zero downtime | **100+** |
-| Critical data center uptime | **99.95%** over 3 consecutive years |
+**Career progression:** IT Technician (2007) → Programmer Analyst (2008) → Head of Technical Support (2009) → IT Project Lead (2010) → Head of Infrastructure, Telecom & IT Projects (2017) → Infrastructure & Data Center Manager (2017-2019) → IT Project Manager & Consultant (2020-2026)
 
----
+| Achievement | Result |
+|---|---|
+| Three data centers (2014, 2016, 2019) | $1.5M, $20M and $1.5M · 99.999% availability |
+| National technical support, 1,500 tickets/month | SLA from 75% to 95% |
+| Migration of 35 E1 sites to fibre optics | Availability from 92% to 97-99% |
+| Active Directory for 2,500+ employees | Rolled out in 3 months |
+| 4 ransomware incidents | Resolved in < 48 h, no ransom paid |
+| BCP/DRP and ISO 9001 | RTO < 4 h · certified with no nonconformity |
+| Cisco Networking Academy instructor since 2008 | 225+ students, 100% pass rate |
 
-## 🔧 Technical Stack
+## 🇪🇸 Español
 
-**Security & Perimeter**  
-![Cisco](https://img.shields.io/badge/Cisco_ASA-1BA0D7?style=flat&logo=cisco&logoColor=white)
-![Fortinet](https://img.shields.io/badge/Fortinet_FortiGate-EE3124?style=flat&logo=fortinet&logoColor=white)
-![PfSense](https://img.shields.io/badge/PfSense-212121?style=flat&logoColor=white)
-![MikroTik](https://img.shields.io/badge/MikroTik-293239?style=flat&logoColor=white)
+En 20 años pasé del soporte técnico a dirigir la infraestructura, las telecomunicaciones y los proyectos TI de una administración tributaria y aduanera nacional (35+ oficinas, 250+ servidores). Curso una maestría en ciberseguridad en la Universidad de Sherbrooke.
 
-**Cloud & Virtualization**  
-![VMware](https://img.shields.io/badge/VMware_vSphere-607078?style=flat&logo=vmware&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D6?style=flat&logo=microsoft&logoColor=white)
+**Progresión profesional:** Técnico TI (2007) → Analista Programador (2008) → Jefe de Soporte Técnico (2009) → Líder de Proyectos TI (2010) → Jefe de Infraestructura, Telecomunicaciones y Proyectos TI (2017) → Jefe de Infraestructura y Centro de Datos (2017-2019) → Gerente de Proyectos TI y consultor (2020-2026)
 
-**Scripting & Automation**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-
-**Frameworks & Compliance**  
-`ISO 27001` `NIST CSF` `CIS Benchmarks` `MITRE ATT&CK` `PIPEDA` `Loi 25` `ISO 9001`
-
-**AI Tools**  
-`Claude (Anthropic)` `Gemini (Google)` `Copilot (Microsoft)`
+| Logro | Resultado |
+|---|---|
+| Tres centros de datos (2014, 2016, 2019) | 1,5 M$, 20 M$ y 1,5 M$ · disponibilidad de 99,999 % |
+| Soporte técnico nacional, 1 500 tickets/mes | SLA de 75 % a 95 % |
+| Migración de 35 sitios E1 a fibra óptica | Disponibilidad de 92 % a 97-99 % |
+| Active Directory para 2 500+ empleados | Desplegado en 3 meses |
+| 4 incidentes de ransomware | Resueltos en < 48 h, sin pagar rescate |
+| BCP/DRP e ISO 9001 | RTO < 4 h · certificación sin no conformidades |
+| Instructor Cisco Networking Academy desde 2008 | 225+ estudiantes, 100 % de aprobación |
 
 ---
 
-## 📚 Research & Publications
+## 🔧 Stack
 
-### 🔬 Cybersecurity of Québec's Elderly Population (2026)
-*MSc Cybersecurity — Université de Sherbrooke*
+**Infrastructure:** Windows Server · Active Directory · Microsoft 365 · VMware · Veeam · AWS · Cisco · MikroTik
+**Sécurité / Security:** Fortinet FortiGate · Check Point · pfSense · ISO 27001 · ISO 9001 · Loi 25
+**Gestion / Management:** PMI · ITIL · Lean Six Sigma · MS Project · Jira
 
-> Seniors 60+ represent **40.3% of all national fraud losses** in Canada (CAFC, 2024).  
-> Average loss per victim: **$21,604** — the highest across all age groups.
+## 🎓 Formation · Education
 
-📄 Available in: [🇫🇷 Français](research/cybersecurite-aines-quebec-fr-original.docx) · [🇬🇧 English](research/cybersecurity-elderly-quebec-en.md) · [🇪🇸 Español](research/ciberseguridad-adultos-mayores-quebec-es.md)
+- Maîtrise en cybersécurité — Université de Sherbrooke *(en cours / in progress, 2026)*
+- Certificat en français langue seconde — Université de Sherbrooke *(2026)*
+- Maîtrise en gestion de projets — UNICAH *(2006-2009)*
+- Baccalauréat en génie des systèmes informatiques — UNICAH *(2003-2006)*
 
-**Coming soon:** Data Center Construction · Secure Migration Methodology · Fibre Optic Ring Segmentation · Campus Wi-Fi with PfSense · IP Telephony with Voice VLANs
+**Certifications:** Cisco Networking Academy Instructor (active) · Google Cybersecurity *(in progress)* · MikroTik MTCNA, MTCRE, MTCUME, MTCSE *(2019, expired)* · Ubiquiti UEWA *(2019)* · Lean Six Sigma Yellow Belt *(2016)*
 
----
+## 📚 Recherche · Research
 
-## 🏗️ Notable Projects
+**Cybersécurité des aînés québécois : pour une stratégie intégrale (2026)** — Maîtrise en cybersécurité, Université de Sherbrooke
+[🇫🇷 Français](research/cybersecurite-aines-quebec-FR-jekyll.md) · [🇬🇧 English](research/cybersecurity-elderly-quebec-EN-jekyll.md) · [🇪🇸 Español](research/ciberseguridad-adultos-mayores-quebec-ES-jekyll.md)
 
-| Project | Scale | Key Result |
-|---------|-------|------------|
-| National Perimeter Protection — Gov. Honduras | $1.5M USD · 25 regional offices | 70% incident reduction |
-| Secure Data Center Migration — ENEE | 100+ servers · 50+ TB | 0 downtime · 94% vuln. reduction |
-| Campus Wi-Fi + PfSense Content Filtering | 5,000+ users | Multi-VLAN · Content filtered |
-| IP Telephony with Voice VLANs | Corporate deployment | $115K/yr telecom savings |
-| Critical Data Center Operations | 200+ VMs · 99.95% uptime | 17-year tenure |
+## 🌍 Langues · Languages
 
----
-
-## 🎓 Education & Certifications
-
-- 🔐 **MSc Cybersecurity** — Université de Sherbrooke *(2025 – present)*
-- 📊 **MSc Project Management** — UNICAH Honduras *(2006–2009)*
-- 💻 **BEng Computer Systems Engineering** — UNICAH Honduras *(2003–2006)*
-
-**Certifications:** CCNA (Instructor Level) · VMware VCP · MikroTik MTCNA/MTCRE/MTCUME · Ubiquiti UEWA · ISO 9001:2015 · Lean Six Sigma Yellow Belt · Google Cybersecurity *(in progress)*
-
----
-
-## 🌍 Languages
-
-🇪🇸 Spanish (Native C2) · 🇬🇧 English (Professional, IELTS) · 🇫🇷 French (B2+, Université de Sherbrooke)
-
----
-
-## 📬 Contact
-
-📧 am.projects.can@gmail.com · 📱 +1 514 213-1600 · 📍 Sherbrooke, QC, Canada
-
-Open to: **Security Architect · IT Security Manager · Infrastructure Lead · IT Project Manager · Cybersecurity Consultant**  
-Available: On-site · Hybrid · Remote · Québec · Canada · USA · Europe
+🇪🇸 Espagnol / Spanish — natif · 🇫🇷 Français / French — professionnel · 🇬🇧 Anglais / English — professionnel
 
 ---
 
 <div align="center">
-<sub>© 2026 Marlon Alexander Murillo Medina · Permanent Resident, Canada</sub>
+<sub>© 2026 Marlon Alexander Murillo Medina · Sherbrooke, Québec, Canada</sub>
 </div>
-

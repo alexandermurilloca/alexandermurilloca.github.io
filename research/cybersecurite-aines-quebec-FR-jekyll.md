@@ -14,7 +14,7 @@ keywords: "cybersécurité, aînés, Québec, fraude en ligne, hameçonnage, Loi
 *Présenté dans le cadre de la maîtrise en cybersécurité — Université de Sherbrooke*  
 *Sherbrooke, Québec, Canada · 2026*
 
-> 📄 Also available in: [🇬🇧 English](cybersecurity-elderly-quebec-en) · [🇪🇸 Español](ciberseguridad-adultos-mayores-quebec-es)
+> 📄 Also available in: [🇬🇧 English](/research/cybersecurity-elderly-quebec-EN-jekyll/) · [🇪🇸 Español](/research/ciberseguridad-adultos-mayores-quebec-ES-jekyll/)
 
 ---
 

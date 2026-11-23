@@ -6,9 +6,7 @@ Articles available in FR · EN · ES
 - Cybersécurité des aînés québécois (2026) — Université de Sherbrooke
 
 ## Coming Soon
-- Data Center Construction
-- Fibre Optic Ring Segmentation  
-- Campus Wi-Fi with PfSense
-- IP Telephony with Voice VLANs
+- Data Center Construction: From Design to Production
+- Migrating a WAN from E1 to Fibre Optics
 
 Contact: am.projects.can@gmail.com
