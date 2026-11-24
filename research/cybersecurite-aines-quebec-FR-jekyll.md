@@ -123,4 +123,4 @@ Statistique Canada. (2024, 10 décembre). *Compétences des Canadiens en littér
 ---
 
 *© 2026 Marlon Alexander Murillo Medina — Université de Sherbrooke*  
-*Contact : [am.projects.can@gmail.com](mailto:am.projects.can@gmail.com) · [Portfolio](https://alexandermurilloca.github.io)*
+*Contact : [alexander.murillo.ca@gmail.com](mailto:alexander.murillo.ca@gmail.com) · [Portfolio](https://alexandermurilloca.github.io)*

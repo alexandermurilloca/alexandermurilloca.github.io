@@ -7,8 +7,8 @@
 **Sherbrooke, Québec, Canada 🍁**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0B2545?style=for-the-badge&logo=github&logoColor=white)](https://alexandermurilloca.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marlon-alexander-murillo-medina-237a9131a)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:am.projects.can@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandermurilloca/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.murillo.ca@gmail.com)
 
 [Français](#-français) · [English](#-english) · [Español](#-español)
 

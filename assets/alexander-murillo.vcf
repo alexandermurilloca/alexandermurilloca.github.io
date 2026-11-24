@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Murillo Medina;Marlon Alexander;;;
+FN:Marlon Alexander Murillo Medina
+NICKNAME:Alexander Murillo
+TITLE:Gestionnaire de projets TI et d'infrastructure · Cybersécurité
+EMAIL;TYPE=INTERNET,WORK:alexander.murillo.ca@gmail.com
+URL;TYPE=WORK:https://alexandermurilloca.github.io/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/alexandermurilloca/
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/alexandermurilloca/
+ADR;TYPE=WORK:;;;Sherbrooke;QC;;Canada
+NOTE:Français · English · Español
+END:VCARD

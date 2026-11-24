@@ -119,4 +119,4 @@ Statistics Canada. (2024, December 10). *Canadians' skills in literacy, numeracy
 ---
 
 *© 2026 Marlon Alexander Murillo Medina — Université de Sherbrooke*  
-*Contact: [am.projects.can@gmail.com](mailto:am.projects.can@gmail.com) · [Portfolio](https://alexandermurilloca.github.io)*
+*Contact: [alexander.murillo.ca@gmail.com](mailto:alexander.murillo.ca@gmail.com) · [Portfolio](https://alexandermurilloca.github.io)*

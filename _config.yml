@@ -4,7 +4,7 @@ description: "Gestionnaire de projets TI et d'infrastructure | Cybersécurité |
 url: "https://alexandermurilloca.github.io"
 author:
   name: "Marlon Alexander Murillo Medina"
-  email: "am.projects.can@gmail.com"
+  email: "alexander.murillo.ca@gmail.com"
 
 # Theme
 theme: minima
@@ -20,6 +20,10 @@ permalink: pretty
 # Navigation
 header_pages:
   - research/README.md
+
+# Publish security.txt (dot-folders are skipped by default)
+include:
+  - .well-known
 
 # Exclude files
 exclude:
